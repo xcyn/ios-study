@@ -14,6 +14,7 @@
 		18842C5525DFAC5B00F0DCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18842C5425DFAC5B00F0DCDC /* Assets.xcassets */; };
 		18842C5825DFAC5B00F0DCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18842C5625DFAC5B00F0DCDC /* LaunchScreen.storyboard */; };
 		18842C5B25DFAC5B00F0DCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18842C5A25DFAC5B00F0DCDC /* main.m */; };
+		18842C6625E2726300F0DCDC /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18842C6525E2726300F0DCDC /* test.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		18842C5725DFAC5B00F0DCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18842C5925DFAC5B00F0DCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18842C5A25DFAC5B00F0DCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18842C6525E2726300F0DCDC /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				18842C5625DFAC5B00F0DCDC /* LaunchScreen.storyboard */,
 				18842C5925DFAC5B00F0DCDC /* Info.plist */,
 				18842C5A25DFAC5B00F0DCDC /* main.m */,
+				18842C6525E2726300F0DCDC /* test.storyboard */,
 			);
 			path = "hello-word";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				18842C5825DFAC5B00F0DCDC /* LaunchScreen.storyboard in Resources */,
 				18842C5525DFAC5B00F0DCDC /* Assets.xcassets in Resources */,
+				18842C6625E2726300F0DCDC /* test.storyboard in Resources */,
 				18842C5325DFAC5A00F0DCDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,8 +299,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xyz.lovebhs.hello-word";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "hello-word";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,8 +316,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xyz.lovebhs.hello-word";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "hello-word";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
