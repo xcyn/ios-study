@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831A11D25EBB65600007C69 /* tabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831A11C25EBB65600007C69 /* tabController.m */; };
+		1831A11F25EBCB8000007C69 /* tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831A11E25EBCB8000007C69 /* tab.storyboard */; };
 		18842C4A25DFAC5A00F0DCDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18842C4925DFAC5A00F0DCDC /* AppDelegate.m */; };
 		18842C4D25DFAC5A00F0DCDC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18842C4C25DFAC5A00F0DCDC /* SceneDelegate.m */; };
 		18842C5025DFAC5A00F0DCDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18842C4F25DFAC5A00F0DCDC /* ViewController.m */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1831A11B25EBB65600007C69 /* tabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabController.h; sourceTree = "<group>"; };
+		1831A11C25EBB65600007C69 /* tabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabController.m; sourceTree = "<group>"; };
+		1831A11E25EBCB8000007C69 /* tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tab.storyboard; sourceTree = "<group>"; };
 		18842C4525DFAC5A00F0DCDC /* hello-word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18842C4825DFAC5A00F0DCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18842C4925DFAC5A00F0DCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +80,9 @@
 				18842C5925DFAC5B00F0DCDC /* Info.plist */,
 				18842C5A25DFAC5B00F0DCDC /* main.m */,
 				18842C6525E2726300F0DCDC /* test.storyboard */,
+				1831A11B25EBB65600007C69 /* tabController.h */,
+				1831A11C25EBB65600007C69 /* tabController.m */,
+				1831A11E25EBCB8000007C69 /* tab.storyboard */,
 			);
 			path = "hello-word";
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1831A11F25EBCB8000007C69 /* tab.storyboard in Resources */,
 				18842C5825DFAC5B00F0DCDC /* LaunchScreen.storyboard in Resources */,
 				18842C5525DFAC5B00F0DCDC /* Assets.xcassets in Resources */,
 				18842C6625E2726300F0DCDC /* test.storyboard in Resources */,
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1831A11D25EBB65600007C69 /* tabController.m in Sources */,
 				18842C5025DFAC5A00F0DCDC /* ViewController.m in Sources */,
 				18842C4A25DFAC5A00F0DCDC /* AppDelegate.m in Sources */,
 				18842C5B25DFAC5B00F0DCDC /* main.m in Sources */,
